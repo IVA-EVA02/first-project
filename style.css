@@ -1,0 +1,14 @@
+.header-page {
+    color: greenyellow;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 64px;
+    text-align: center;
+}
+
+.header-article {
+    color: blue;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 32px;
+    text-align: start;
+    text-decoration: underline;
+}
