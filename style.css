@@ -12,3 +12,11 @@
     text-align: start;
     text-decoration: underline;
 }
+
+.text-article {
+    color: black;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 16px;
+    text-align: start;
+    width: 30vw;
+}
