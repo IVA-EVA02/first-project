@@ -1,10 +1,9 @@
-
 ```mermaid
-flowchat TD;
- A[untracked (неотслеживаемый)] -- git add --> B[staged (в списке на коммит) +tracked];
- B --> C{Фиксируем изменения Staging area?};
- C -- git commit --> D[tracked (отслеживаемый)];
- C -- вносим изменения --> E[modified (изменённый)];
- D -- вносим изменения --> E;
- E -- git add --> B;
+flowchart TD
+   A[untracked] -- git add --> B[staged +tracked];
+   B --> C{Фиксируем изменения Staging area?};
+   C -- git commit --> D[tracked];
+   C -- вносим изменения --> E[modified];
+   D -- вносим изменения --> E;
+   E -- git add --> B;
 ```
